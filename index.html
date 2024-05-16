@@ -8,6 +8,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>KawahTekurep</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -15,36 +23,38 @@
     <!-- BACKSOUND -->
     <audio src="assets/audio.mp3" autoplay loop volume="0.5" style="display:none;"></audio>
 
-    <!-- NAVBAR -->
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Kawah<span style="color: #FFC800;">Tekurep</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kawah<span
-                            style="color: #FFC800;">Tekurep</span></h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="qr.html">QR Code</a>
-                        </li>
-                </div>
+<!-- NAVBAR -->
+<nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Kawah<span style="color: #FFC800;">Tekurep</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kawah<span
+                        style="color: #FFC800;">Tekurep</span></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="qr.html">QR Code</a>
+                    </li>
+                </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
     <!-- CAROUSEL -->
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -59,9 +69,10 @@
                 <img src="assets\img\carousel1.jpg" class="d-block carousel-img" alt="First slide">
                 <div class="container">
                     <div class="carousel-caption text-start">
-                        <h1>Example headline.</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type sp</p>
-                        <p><a class="btn btn-lg btn-warning" href="#">Selengkapnya</a></p>
+                        <h1>Silsilah Kesultanan</h1>
+                        <p>Sayyidina Muhammad SAW Binti Sayyidatuna Fatimah Azzahra Menikah dengan Ali Bin Abi Thalib
+                            Bin Sayyidina Husain As Syahid Bin Ali Zainal Abidin As Sajad Bin Muhammad..</p>
+                        <p><a class="btn btn-lg btn-warning" href="about.html">Selengkapnya</a></p>
                     </div>
                 </div>
             </div>
@@ -69,9 +80,12 @@
                 <img src="assets\img\carousel2.jpg" class="d-block carousel-img" alt="Second slide">
                 <div class="container">
                     <div class="carousel-caption">
-                        <h1>Informasi Tentang </h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type sp</p>
-                        <p><a class="btn btn-lg btn-warning" href="#">Selengkapnya</a></p>
+                        <h1>Makam Sultan Mahmud Badaruddin I</h1>
+                        <p>Mahmud Badaruddin dimakamkan di komplek pemakaman Kawah Tekurep, terletak di kawasan 3 Ilir,
+                            Palembang, yang dibangunnya sendiri sebagai tempat pemakaman bagi dirinya, sanak keluarga,
+                            serta para pejabat tinggi kesultanan. Beberapa sultan penerusnya ada pula yang dimakamkan di
+                            sana.</p>
+                        <p><a class="btn btn-lg btn-warning" href="about.html">Selengkapnya</a></p>
                     </div>
                 </div>
             </div>
@@ -79,9 +93,11 @@
                 <img src="assets\img\carousel3.jpg" class="d-block carousel-img" alt="Third slide">
                 <div class="container">
                     <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type sp</p>
-                        <p><a class="btn btn-lg btn-warning" href="#">Selengkapnya</a></p>
+                        <h1>Pemakaman Kawah Tekurep</h1>
+                        <p>Makam Kawah Tekurep dibangun pada tahun 1728 dengan menggunakan tiga unsur, yaitu kapur
+                            pasir, putih telur, dan batu. Makam ini dibangun dengan bersamaan dengan pembangunan masjid
+                            Agung Palembang. </p>
+                        <p><a class="btn btn-lg btn-warning" href="about.html">Selengkapnya</a></p>
                     </div>
                 </div>
             </div>
@@ -108,7 +124,7 @@
                     bagi raja, abdi dalem serta keturunannya. Secara etimologi Kawah Tekurep berasal dari kata Kawah
                     yang bermakna suatu alat yang menyerupai wadah</p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                    <button type="button" class="btn btn-warning btn-lg px-4 me-md-2 fw-normal">Explore Now</button>
+                    <p><a class="btn btn-lg btn-warning" href="about.html">Selengkapnya</a></p>
                 </div>
             </div>
             <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
