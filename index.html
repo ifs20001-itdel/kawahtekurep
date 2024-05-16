@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>KawahTekurep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- BACKSOUND -->
+    <audio src="assets/audio.mp3" autoplay loop volume="0.5" style="display:none;"></audio>
+
+    <!-- NAVBAR -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kawah<span style="color: #FFC800;">Tekurep</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kawah<span
+                            style="color: #FFC800;">Tekurep</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">QR Code</a>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets\img\carousel1.jpg" class="d-block carousel-img" alt="First slide">
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-warning" href="#">Selengkapnya</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets\img\carousel2.jpg" class="d-block carousel-img" alt="Second slide">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-warning" href="#">Selengkapnya</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets\img\carousel3.jpg" class="d-block carousel-img" alt="Third slide">
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-warning" href="#">Selengkapnya</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- ABOUT -->
+    <div class="container my-5" style="margin-bottom: 100px;">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+            style="margin-top: 100px;">
+            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                <h1 class="display-4 fw-bold lh-1">Wisata Kawah Tekurep</h1>
+                <p class="lead">Palembang sebagai tempat bernaungnya kerajaan Sriwijaya tentu menyimpan banyak
+                    peninggalan budaya dan sejarah, seperti halnya Kawah Tekurep, sebuah makam yang diperuntukkan khusus
+                    bagi raja, abdi dalem serta keturunannya. Secara etimologi Kawah Tekurep berasal dari kata Kawah
+                    yang bermakna suatu alat yang menyerupai wadah</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                    <button type="button" class="btn btn-warning btn-lg px-4 me-md-2 fw-normal">Explore Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                <img class="rounded-lg-3" src="assets\img\Background.jpg" alt="" width="720">
+            </div>
+        </div>
+    </div>
+
+    <!-- GALERY -->
+    <h2 class="container" style="color: #040E27; margin-bottom: 50px;">Galeri</h2>
+    <div class="p-5" style="background-color: #FFC800; margin-bottom: 100px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="assets\img\galeri2.png" class="w-100 shadow-1-strong rounded mb-4 img-hover-zoom"
+                        alt="Boat on Calm Water" />
+
+                    <img src="assets\img\2.jpg" class="w-100 shadow-1-strong rounded mb-4 img-hover-zoom"
+                        alt="Wintry Mountain Landscape" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="assets\img\1.jpg" class="w-100 shadow-1-strong rounded mb-4 img-hover-zoom"
+                        alt="Mountains in the Clouds" />
+
+                    <img src="assets\img\galeri2.png" class="w-100 shadow-1-strong rounded mb-4 img-hover-zoom"
+                        alt="Boat on Calm Water" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="assets\img\galeri2.png" class="w-100 shadow-1-strong rounded mb-4 img-hover-zoom"
+                        alt="Waves at Sea" />
+
+                    <img src="assets\img\2.jpg" class="w-100 shadow-1-strong rounded mb-4 img-hover-zoom"
+                        alt="Yosemite National Park" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-bottom: 100px;">
+        <h2 class="">Lokasi</h2>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Our Location</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.8985903766255!2d104.73860821475525!3d-2.9797172972778187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3040349e097550eb%3A0x445c25555e069c59!2s2QCM%2B67X%2C%203%20Ilir%2C%20Kec.%20Ilir%20Tim.%20II%2C%20Kota%20Palembang%2C%20Sumatera%20Selatan%2030111%2C%20Indonesia!5e0!3m2!1sen!2suk!4v1621091970045!5m2!1sen!2suk"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer style="background-color: #040E27;" class="text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="color: white;">
+            © 2024 KawahTekurep
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
