@@ -38,3 +38,14 @@
     border-radius: 5px;       
     transition: background-color 0.3s ease; 
 }
+
+.lead {
+    text-align: justify;
+    letter-spacing: -0.09em; /* Mengurangi jarak antar huruf lebih banyak */
+    word-spacing: -0.05em; /* Mengurangi jarak antar kata lebih banyak */
+    hyphens: auto; /* Mengizinkan pemenggalan kata */
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    margin: 0; /* Pastikan margin tidak menambah jarak */
+    padding: 0; /* Pastikan padding tidak menambah jarak */
+}
