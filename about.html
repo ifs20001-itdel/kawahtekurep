@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -22,29 +22,31 @@
     <!-- NAVBAR -->
     <nav class="navbar bg-body-tertiary fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Kawah<span style="color: #FFC800;">Tekurep</span></a>
+            <a class="navbar-brand" style="font-weight: bold;" href="index.html">Kawah<span style="color: #FFC800;">Tekurep</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
                 aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span style="font-weight: bold;">Menu</span>
             </button>
-            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kawah<span
-                            style="color: #FFC800;">Tekurep</span></h5>
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kawah<span style="color: #FFC800;">Tekurep</span></h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"><span style="padding-left: 20px;">Home</span></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="about.html"><i class="fas fa-info-circle"><span style="padding-left: 20px;">About</span></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="qr.html">QR Code</a>
+                            <a class="nav-link" href="qr.html"><i class="fas fa-qrcode"><span style="padding-left: 20px;">QR Code</span></i></a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profil.html"><i class="fas fa-user"><span style="padding-left: 20px;">Profile</span></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -53,25 +55,45 @@
     <!-- SEJARAH -->
     <div class="container my-5" style="margin-bottom: 100px;">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
-            style="margin-top: 100px;">
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h1 class="display-4 fw-bold lh-1">Sejarah Kawah Tekurep</h1>
-                <p class="lead" style="text-align: justify; margin-top: 30px;">Makam Kawah Tekurep dibangun pada tahun 1728 dengan
-                    menggunakan tiga unsur, yaitu kapur
-                    pasir, putih telur, dan batu. Makam ini dibangun dengan bersamaan dengan pembangunan masjid Agung
-                    Palembang. Di makam yang berlokasi di kecamatan Ilir Timur II, Palembang ini terdapat makam Sultan
-                    Mahmud Badaruddin beserta empat isterinya, yaitu Ratu Sepuh dari Demak, Ratu Gading dari Malaysia,
-                    ratu Mas Ayu dari Cina, dan Nyai Mas Naimah dari Palembang. Selain itu, pada bagian yang lain juga
-                    terdapat Imam Sayid Al Idrus yang merupakan guru besar bagi Sultan Mahmud Badaruddin.</p>
+            style="margin-top: 50px;">
+            <h2 class="container" id="informasi" style="color: #040E27;">Sejarah Makam Kawah Tekurep</h2>
+
+            <div class="container my-5" style="margin-bottom: 50px;">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                    <img src="assets\img\Makam.jpg" alt="Sultan Mahmud Badaruddin I">
+                </div>
             </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                <img class="rounded-lg-3" src="assets\img\carousel1.jpg" alt="" width="720">
+
+            <div style="margin-top: 30px; margin-bottom: 30px;">
+                <p class="lead" style="text-align: center;">
+                    Palembang sebagai tempat bernaungnya kerajaan Sriwijaya tentu menyimpan
+                    banyak peninggalan budaya dan sejarah, seperti halnya Kawah Tekurep, sebuah makam
+                    yang diperuntukkan khusus bagi raja, abdi dalem serta keturunannya. Secara etimologi
+                    Kawah Tekurep berasal dari kata Kawah yang bermakna suatu alat yang menyerupai
+                    wadah untuk menanak nasi, dan Tekureb memiliki padanan makna terbalik. Jadi secara
+                    harfiah Kawah Tekurep dapat dimaknai sebagai wadah terbalik yang digunakan sebagai
+                    makam dan tempat pertemuan para wali dan sunan. Makam Kawah Tekurep dibangun
+                    pada tahun 1728 dengan menggunakan tiga unsur, yaitu kapur pasir, putih telur, dan batu.
+                    Makam ini dibangun dengan bersamaan dengan pembangunan masjid Agung Palembang.
+                    Di makam yang berlokasi di kecamatan Ilir Timur II, Palembang ini terdapat makam
+                    Sultan Mahmud Badaruddin beserta empat isterinya, yaitu Ratu Sepuh dari Demak, Ratu
+                    Gading dari Malaysia, ratu Mas Ayu dari Cina, dan Nyai Mas Naimah dari Palembang.
+                    Selain itu, pada bagian yang lain juga terdapat Imam Sayid Al Idrus yang merupakan
+                    guru besar bagi Sultan Mahmud Badaruddin. Secara umum, makam Kawah Tekurep
+                    memiliki luas mencapai 1 hektar, yang terdiri dari 6 bangunan makam yang
+                    diperuntukkan bagi sultan dan orang-orang tedekatnya. Sedangkan makam yang
+                    berukuran kecil yang ada di bagian depan bangunan utama makam kawah tekureb
+                    merupakan makam yang diperuntukan bagi anak-anak keturunan, abdi dalem, dan para
+                    panglima. Setiap hari makam Kawah Tekurep dikunjungi oleh para peziarah yang bahkan
+                    datang dari luar Palembang.
+
+                </p>
             </div>
         </div>
     </div>
 
     <!-- INFORMASI YANG DIMAKAM KAN -->
-    <h2 class="container" id="informasi" style="color: #040E27;">Kesultanan Palembang Darusssalam Diwilayah Kawah Tekurep</h2>
+    <h2 class="container" id="informasi" style="color: #040E27;">Silsilah “Sultan Mahmud Badaruddin Jayo Wikramo”</h2>
 
     <div class="container my-5" style="margin-bottom: 100px;">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
@@ -119,20 +141,23 @@
             </div>
 
             <div style="margin-top: 30px; margin-bottom: 30px;">
-                <p class="lead" style="text-align: justify;">
-                    Sayyidina Muhammad SAW Binti Sayyidatuna Fatimah Azzahra Menikah dengan Ali Bin Abi Thalib Bin
-                    Sayyidina Husain As Syahid Bin Ali Zainal Abidin As Sajad Bin Muhammad Al Baqir Bin Ja'far Shadiq
-                    Bin Ali Uraidhi Bin Muhammad An Naqib Bin Isa Ar Rumi Bin Ahmad Muhajjir Bin Ubaidillah Bin Alwi
-                    Alawiyyin Bin Muhammad Shohibus Saumiah Bin Alwi At Tsani Bin Ali Khaliq Qasam Bin Muhammad Shohib
-                    Mirbath Bin Alwi Ammul Faqih Bin Abdul Malik Adzmatkhan Bin Abdullah Adzmatkhan Bin Ahmad Syah
-                    Jalaluddin Adzmatkhan Bin Maulana Husain Jamaluddin Kubro Bin Maulana Ibrahim Asmaraqandi Bin
-                    Maulana Ishaq Al Ummul Islam Bin Maulana Ainul Yaqin ( Raden Paku / Sunan Giri ) Bin Maulana
-                    Muhammad Ali Mahmud Nuruddin ( Pangeran Wirokesumo Cirebon / Pangeran Sido Ing Margi ) Bin Maulana
-                    Abdullah ( Pangeran Adipati Sumedang ) Bin Maulana Fadhlullah ( Tumenggung Manco Negoro ) Bin
-                    Maulana Muhammad Ali ( Pangeran Sido Ing Pasarean / Sultan Jamaluddin Mangkurat V ) Bin Sultan
-                    Abdurrahman Kholifatul Mukminin Sayyidul Imam ( Candi Walang ) Bin Sultan Muhammad Mansyur Jayo Ing
-                    Lago ( Kebon Gede ) Bin Sultan Mahmud Badaruddin Jayo Wikramo ( Kawah Tekurep )
-
+                <p class="lead" style="text-align: center;">
+                    Sayyidina Muhammad SAW Binti Sayyidatuna Fatimah Azzahra Ia merupakan anak
+                    perempuan termuda dari Nabi Muhammad Menikah dengan Ali Bin Abi Thalib Bin
+                    Sayyidina Husain As Syahid Bin Ali Zainal Abidin As Sajad Bin Muhammad Al Baqir
+                    Bin Ja'far Shadiq Bin Ali Uraidhi Bin Muhammad An Naqib Bin Isa Ar Rumi Bin
+                    Ahmad Muhajjir Bin Ubaidillah Bin Alwi Alawiyyin Bin Muhammad Shohibus Saumiah
+                    Bin Alwi At Tsani Bin Ali Khaliq Qasam Bin Muhammad Shohib Mirbath Bin Alwi
+                    Ammul Faqih Bin Abdul Malik Adzmatkhan Bin Abdullah Adzmatkhan Bin Ahmad
+                    Syah Jalaluddin Adzmatkhan Bin Maulana Husain Jamaluddin Kubro Bin Maulana
+                    Ibrahim Asmaraqandi Bin Maulana Ishaq Al Ummul Islam Bin Maulana Ainul Yaqin
+                    (Raden Paku / Sunan Giri) Bin Maulana Muhammad Ali Mahmud Nuruddin (Pangeran
+                    Wirokesumo Cirebon/ Pangeran Sido Ing Margi) Bin Maulana Abdullah (Pangeran
+                    Adipati Sumedang) Bin Maulana Fadhlullah (Tumenggung Manco Negoro) Bin Maulana
+                    Muhammad Ali (Pangeran Sido Ing Pasarean/Sultan Jamaluddin Mangkurat V) Bin
+                    Sultan Abdurrahman Kholifatul Mukminin Sayyidul Imam (Candi Walang) Bin Sultan
+                    Muhammad Mansyur Jayo Ing Lago (Kebon Gede) Bin Sultan Mahmud Badaruddin Jayo
+                    Wikramo (Kawah Tekurep).
                 </p>
             </div>
         </div>
@@ -142,68 +167,64 @@
     <!-- SEJARAH Mahmud Badaruddin I-->
     <div class="container my-5" style="margin-bottom: 100px;">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
-            style="margin-top: 100px;">
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <h1 class="display-4 fw-bold lh-1">Sejarah Mahmud Badaruddin I</h1>
-                <p class="lead" style="text-align: justify;">
-                <p class="lead" style="text-align: justify;">Sultan Mahmud Badaruddin Jayo Wikramo atau Sultan Mahmud
-                    Badaruddin I adalah sultan keempat dari Kesultanan Palembang Darusssalam yang memerintah antara
-                    1724-1757.Pengangkatannya mengakhiri periode perebutan kekuasaan antar kerabat kerajaan yang telah
-                    berlangsung sejak wafatnya Sultan Abdurrahman pada tahun 1706. Selama masa pemerintahan Mahmud
-                    Badaruddin, peranan lada sebagai komoditas utama Palembang berangsur-angsur digantikan oleh
-                    timah.Mahmud Badaruddin berhasil memastikan kekuasaan Palembang atas Bangka dan Belitung sebagai
-                    penghasil timah, yang sebelumnya dikelola terutama oleh para penambang Bugis.Tahun 1731, dengan
-                    bantuan VOC ia mengalahkan pemberontakan orang Bugis di Bangka, dan sejak saat itu ia mendatangkan
-                    para penambang Tionghoa ke sana.
+            style="margin-top: 50px;">
+            <h2 class="container" id="informasi" style="color: #040E27;">Sejarah Sultan Mahmud Badaruddin Jayo Wikromo
+            </h2>
+
+            <div class="container my-5" style="margin-bottom: 50px;">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                    <img src="assets\img\MahmudBadaruddin.jpg" alt="Sultan Mahmud Badaruddin I">
+                </div>
+            </div>
+
+            <div style="margin-top: 30px; margin-bottom: 30px;">
+                <p class="lead" style="text-align: center;">
+                    Sultan Mahmud Badaruddin Jayo Wikramo atau Sultan Mahmud Badaruddin I adalah
+                    sultan keempat dari Kesultanan Palembang Darusssalam yang memerintah antara 1724-
+                    1757. Pengangkatannya mengakhiri periode perebutan kekuasaan antar kerabat kerajaan
+                    yang telah berlangsung sejak wafatnya Sultan Abdurrahman pada tahun 1706. Selama
+                    masa pemerintahan Mahmud Badaruddin, penghasil lada sebagai komoditas utama
+                    Palembang berangsur-angsur digantikan oleh timah. Sultan Mahmud Badaruddin berhasil
+                    memastikan kekuasaan Palembang atas Bangka dan Belitung sebagai penghasil timah,
+                    yang sebelumnya dikelola terutama oleh para penambang Bugis. Lalu pada Tahun 1731,
+                    dengan bantuan VOC ia mengalahkan pemberontakan orang Bugis di Bangka, dan sejak
+                    saat itu ia mendatangkan para penambang Tionghoa ke sana. Sultan Mahmud Badaruddin
+                    sendiri menikahi peranakan Tionghoa sebagai salah seorang istrinya, dan juga menunjuk
+                    beberapa orang Tionghoa muslim sebagai pejabat urusan pertambangan timah di Bangka.
+                    Di akhir masa pemerintahannya, diperkirakan telah terdapat 25.000-30.000 orang
+                    Tionghoa yang menetap di Bangka.
                 </p>
                 <br>
+                <p class="lead" style="text-align: center;">
+                    Mahmud Badaruddin dianggap sebagai seorang sultan yang berhasil memerintah dengan
+                    baik dan bijaksana. ia mendapatkan dukungan dari para bangsawan, serta bertukar pikiran dengan
+                    mereka dalam menjalankan pemerintahannya, dan VOC tidak terlalu
+                    mencampuri pemerintahannya karena kondisi keuangan yang memburuk pada saat itu,
+                    serta adanya persaingan dengan Inggris dan Bugis yang telah cukup menguat pula di
+                    belahan barat nusantara. Konflik utama Kesultanan Palembang pada masa
+                    pemerintahannya ialah dengan Kesultanan Banten yaitu memperebutkan kekuasaan atas
+                    Lampung, yang selain merupakan penghasil lada juga telah mulai memproduksi emas
+                    sejak tahun 1730-an, Meskipun VOC tahun 1738 menengahi perselisihan tersebut dan
+                    memenangkan klaim Banten Mahmud Badaruddin tetap memberikan hadiah, piagam, dan
+                    gelar kepada para kepala adat (ponggawa) Tulang Bawang dan sekitarnya, sehingga
+                    mereka menyukainya dan sebagian hasil komoditas Lampung mereka jual kepada para
+                    pedagang Palembang.
 
                 </p>
-            </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                <img class="rounded-lg-3" src="assets\img\MahmudBadaruddin.jpg" alt="" width="720">
-            </div>
-
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                <p class="lead" style="text-align: justify;">Mahmud Badaruddin sendiri menikahi peranakan Tionghoa
-                    sebagai salah seorang istrinya, dan juga menunjuk beberapa orang Tionghoa muslim sebagai pejabat
-                    urusan pertambangan timah di Bangka.Di akhir masa pemerintahannya, diperkirakan telah terdapat
-                    25.000-30.000 orang Tionghoa yang menetap di Bangka.
-
-                    Mahmud Badaruddin dianggap sebagai seorang sultan yang berhasil memerintah dengan baik dan
-                    bijaksana. Ia mendapatkan dukungan dari para bangsawan, serta bertukar-pikiran dengan mereka
-                    dalam menjalankan pemerintahannya. VOC tidak terlalu mencampuri pemerintahannya karena kondisi
-                    keuangan yang memburuk pada saat itu, serta adanya persaingan dengan Inggris dan Bugis yang telah
-                    cukup menguat pula di belahan barat nusantara.
-                </p>
-                <br>
-                <p class="lead" style="text-align: justify;">
-                    Konflik utama Kesultanan Palembang pada masa pemerintahannya ialah dengan Kesultanan Banten; yaitu
-                    memperebutkan kekuasaan atas Lampung, yang selain merupakan penghasil lada juga telah mulai
-                    memproduksi emas sejak tahun 1730-an.Meskipun VOC tahun 1738 menengahi perselisihan tersebut dan
-                    memenangkan klaim Banten; Mahmud Badaruddin tetap memberikan hadiah, piagam, dan gelar kepada para
-                    kepala adat (ponggawa) Tulang Bawang dan sekitarnya, sehingga mereka menyukainya dan sebagian hasil
-                    komoditas Lampung mereka jual kepada para pedagang Palembang.
-                    Mahmud Badaruddin dimakamkan di komplek pemakaman Kawah Tekurep, terletak di kawasan 3 Ilir,
-                    Palembang, yang dibangunnya sendiri sebagai tempat pemakaman bagi dirinya, sanak keluarga, serta
-                    para pejabat tinggi kesultanan.Beberapa sultan penerusnya ada pula yang dimakamkan di sana.
-                </p>
-            </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                <img class="rounded-lg-3" src="assets\img\biografis.jpg" alt="" width="720">
             </div>
         </div>
     </div>
 
-       <!-- INFORMASI YANG DIMAKAM KAN -->
-       <h2 class="container" id="informasi" style="color: #040E27;">Makam Sultan Mahmud Badaruddin Jayo Wikramo atau Sultan Mahmud Badaruddin I</h2>
+    <!-- INFORMASI YANG DIMAKAM KAN -->
+    <h2 class="container" id="informasi" style="color: #040E27;">Makam Sultan Mahmud Badaruddin Jayo Wikramo atau Sultan
+        Mahmud Badaruddin I</h2>
 
-       <div class="container my-5" style="margin-bottom: 100px;">
-           <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
-               style="margin-top: 50px;">
-                <img src="assets\img\Makam.jpg" alt="Sultan Mahmud Badaruddin I">
-           </div>
-       </div>
+    <div class="container my-5" style="margin-bottom: 100px;">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg"
+            style="margin-top: 50px;">
+            <img src="assets\img\Makam.jpg" alt="Sultan Mahmud Badaruddin I">
+        </div>
+    </div>
 
 
 

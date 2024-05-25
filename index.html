@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 
 <body>
@@ -23,38 +25,45 @@
     <!-- BACKSOUND -->
     <audio src="assets/audio.mp3" autoplay loop volume="0.5" style="display:none;"></audio>
 
-<!-- NAVBAR -->
-<nav class="navbar bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Kawah<span style="color: #FFC800;">Tekurep</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kawah<span
-                        style="color: #FFC800;">Tekurep</span></h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="qr.html">QR Code</a>
-                    </li>
-                </ul>
+    <!-- NAVBAR -->
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="font-weight: bold;" href="index.html">Kawah<span
+                    style="color: #FFC800;">Tekurep</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span style="font-weight: bold;">Menu</span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kawah<span
+                            style="color: #FFC800;">Tekurep</span></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html"><i class="fas fa-home"><span
+                                        style="padding-left: 20px;">Home</span></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="fas fa-info-circle"><span
+                                        style="padding-left: 20px;">About</span></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="qr.html"><i class="fas fa-qrcode"><span
+                                        style="padding-left: 20px;">QR Code</span></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="profil.html"><i class="fas fa-user"><span
+                                        style="padding-left: 20px;">Profile</span></i></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
-
+    </nav>
 
     <!-- CAROUSEL -->
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -70,9 +79,6 @@
                 <div class="container">
                     <div class="carousel-caption text-start">
                         <h1>Silsilah Kesultanan</h1>
-                        <p>Sayyidina Muhammad SAW Binti Sayyidatuna Fatimah Azzahra Menikah dengan Ali Bin Abi Thalib
-                            Bin Sayyidina Husain As Syahid Bin Ali Zainal Abidin As Sajad Bin Muhammad..</p>
-                        <p><a class="btn btn-lg btn-warning" href="about.html">Selengkapnya</a></p>
                     </div>
                 </div>
             </div>
@@ -81,11 +87,6 @@
                 <div class="container">
                     <div class="carousel-caption">
                         <h1>Makam Sultan Mahmud Badaruddin I</h1>
-                        <p>Mahmud Badaruddin dimakamkan di komplek pemakaman Kawah Tekurep, terletak di kawasan 3 Ilir,
-                            Palembang, yang dibangunnya sendiri sebagai tempat pemakaman bagi dirinya, sanak keluarga,
-                            serta para pejabat tinggi kesultanan. Beberapa sultan penerusnya ada pula yang dimakamkan di
-                            sana.</p>
-                        <p><a class="btn btn-lg btn-warning" href="about.html">Selengkapnya</a></p>
                     </div>
                 </div>
             </div>
@@ -94,10 +95,6 @@
                 <div class="container">
                     <div class="carousel-caption text-end">
                         <h1>Pemakaman Kawah Tekurep</h1>
-                        <p>Makam Kawah Tekurep dibangun pada tahun 1728 dengan menggunakan tiga unsur, yaitu kapur
-                            pasir, putih telur, dan batu. Makam ini dibangun dengan bersamaan dengan pembangunan masjid
-                            Agung Palembang. </p>
-                        <p><a class="btn btn-lg btn-warning" href="about.html">Selengkapnya</a></p>
                     </div>
                 </div>
             </div>
